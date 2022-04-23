@@ -1,0 +1,795 @@
+#htmlId{
+	background-color: #6ecccc;
+}
+
+body{
+	overflow: hidden;
+}
+
+#mainScreenContainer{
+	height: 100vh;
+	width: 100%;
+	
+}
+
+.atras{
+	border-radius: 10%;
+	margin-left: 600px;
+	margin-top: 100px;
+	width: 300px;
+	height: 100px;
+	
+}
+#divPlay{
+	position: absolute;
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+	
+	display: none;
+}
+
+.cuadrado{
+	border:1px solid black;
+	width:49.74%;
+	display: inline-block;
+	height:49.5%;
+	overflow:hidden;
+	text-align: center;
+}
+
+h1{
+	margin-top: 180px;
+}
+
+#jugar{
+	background-color: gold;
+}
+
+#trabajo{
+	background-color: green;
+}
+
+#dormir{
+	background-color: red;
+}
+
+#pasear{
+	background-color: blue;
+}
+
+
+
+
+
+/*working*/
+
+#divTrabajar {
+	position: relative;
+	display: none;
+  }
+  
+  #trabajarAtras{
+	margin-top: 50px;
+  }
+  .container {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  }
+  
+  #bongo-cat {
+	position: absolute;
+	height: 80vh;
+	width: 80vw;
+	top: 100vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  }
+  
+  .typing-animation {
+	-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+	-webkit-animation-duration: 1200ms;
+			animation-duration: 1200ms;
+  }
+  
+  path#f1-l1 {
+	-webkit-animation-name: typing-f1-l1;
+			animation-name: typing-f1-l1;
+  }
+  
+  path#f1-l2 {
+	-webkit-animation-name: typing-f1-l2;
+			animation-name: typing-f1-l2;
+  }
+  
+  path#f1-l3 {
+	-webkit-animation-name: typing-f1-l3;
+			animation-name: typing-f1-l3;
+  }
+  
+  path#f2-l4 {
+	-webkit-animation-name: typing-f2-l4;
+			animation-name: typing-f2-l4;
+  }
+  
+  path#f2-l5 {
+	-webkit-animation-name: typing-f2-l5;
+			animation-name: typing-f2-l5;
+  }
+  
+  path#f2-l6 {
+	-webkit-animation-name: typing-f2-l6;
+			animation-name: typing-f2-l6;
+  }
+  
+  path#f3-l7 {
+	-webkit-animation-name: typing-f3-l7;
+			animation-name: typing-f3-l7;
+  }
+  
+  path#f3-l8 {
+	-webkit-animation-name: typing-f3-l8;
+			animation-name: typing-f3-l8;
+  }
+  
+  path#f3-l9 {
+	-webkit-animation-name: typing-f3-l9;
+			animation-name: typing-f3-l9;
+  }
+  
+  @-webkit-keyframes typing-f3-l9 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	82% {
+	  d: path("M8,25L8,25");
+	}
+	92% {
+	  d: path("M8,25L96,25");
+	}
+	100% {
+	  d: path("M8,25L96,25");
+	}
+  }
+  
+  @keyframes typing-f3-l9 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	82% {
+	  d: path("M8,25L8,25");
+	}
+	92% {
+	  d: path("M8,25L96,25");
+	}
+	100% {
+	  d: path("M8,25L96,25");
+	}
+  }
+  @-webkit-keyframes typing-f3-l8 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	68% {
+	  d: path("M8,13L8,13");
+	}
+	82% {
+	  d: path("M8,13L146,13");
+	}
+	100% {
+	  d: path("M8,13L146,13");
+	}
+  }
+  @keyframes typing-f3-l8 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	68% {
+	  d: path("M8,13L8,13");
+	}
+	82% {
+	  d: path("M8,13L146,13");
+	}
+	100% {
+	  d: path("M8,13L146,13");
+	}
+  }
+  @-webkit-keyframes typing-f3-l7 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	60% {
+	  d: path("M0,1L0,1");
+	}
+	68% {
+	  d: path("M0,1L96,1");
+	}
+	100% {
+	  d: path("M0,1L96,1");
+	}
+  }
+  @keyframes typing-f3-l7 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	60% {
+	  d: path("M0,1L0,1");
+	}
+	68% {
+	  d: path("M0,1L96,1");
+	}
+	100% {
+	  d: path("M0,1L96,1");
+	}
+  }
+  @-webkit-keyframes typing-f2-l6 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	54% {
+	  d: path("M8,25L8,25");
+	}
+	60% {
+	  d: path("M8,25L69,25");
+	}
+	100% {
+	  d: path("M8,25L69,25");
+	}
+  }
+  @keyframes typing-f2-l6 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	54% {
+	  d: path("M8,25L8,25");
+	}
+	60% {
+	  d: path("M8,25L69,25");
+	}
+	100% {
+	  d: path("M8,25L69,25");
+	}
+  }
+  @-webkit-keyframes typing-f2-l5 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	44% {
+	  d: path("M8,13L8,13");
+	}
+	54% {
+	  d: path("M8,13L114,13");
+	}
+	100% {
+	  d: path("M8,13L114,13");
+	}
+  }
+  @keyframes typing-f2-l5 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	44% {
+	  d: path("M8,13L8,13");
+	}
+	54% {
+	  d: path("M8,13L114,13");
+	}
+	100% {
+	  d: path("M8,13L114,13");
+	}
+  }
+  @-webkit-keyframes typing-f2-l4 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	30% {
+	  d: path("M0,1L0,1");
+	}
+	44% {
+	  d: path("M0,1L136,1");
+	}
+	100% {
+	  d: path("M0,1L136,1");
+	}
+  }
+  @keyframes typing-f2-l4 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	30% {
+	  d: path("M0,1L0,1");
+	}
+	44% {
+	  d: path("M0,1L136,1");
+	}
+	100% {
+	  d: path("M0,1L136,1");
+	}
+  }
+  @-webkit-keyframes typing-f1-l3 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	24% {
+	  d: path("M8,25L8,25");
+	}
+	30% {
+	  d: path("M8,25L61,25");
+	}
+	100% {
+	  d: path("M8,25L61,25");
+	}
+  }
+  @keyframes typing-f1-l3 {
+	0% {
+	  d: path("M8,25L8,25");
+	}
+	24% {
+	  d: path("M8,25L8,25");
+	}
+	30% {
+	  d: path("M8,25L61,25");
+	}
+	100% {
+	  d: path("M8,25L61,25");
+	}
+  }
+  @-webkit-keyframes typing-f1-l2 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	14% {
+	  d: path("M8,13L8,13");
+	}
+	24% {
+	  d: path("M8,13L124,13");
+	}
+	100% {
+	  d: path("M8,13L124,13");
+	}
+  }
+  @keyframes typing-f1-l2 {
+	0% {
+	  d: path("M8,13L8,13");
+	}
+	14% {
+	  d: path("M8,13L8,13");
+	}
+	24% {
+	  d: path("M8,13L124,13");
+	}
+	100% {
+	  d: path("M8,13L124,13");
+	}
+  }
+  @-webkit-keyframes typing-f1-l1 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	14% {
+	  d: path("M0,1L160,1");
+	}
+	100% {
+	  d: path("M0,1L160,1");
+	}
+  }
+  @keyframes typing-f1-l1 {
+	0% {
+	  d: path("M0,1L0,1");
+	}
+	14% {
+	  d: path("M0,1L160,1");
+	}
+	100% {
+	  d: path("M0,1L160,1");
+	}
+  }
+  #paw-right--up,
+  #paw-right--down,
+  #paw-left--up,
+  #paw-left--down {
+	-webkit-animation: blink 300ms infinite;
+			animation: blink 300ms infinite;
+  }
+  
+  #paw-right--up,
+  #paw-left--down {
+	-webkit-animation-delay: 150ms;
+			animation-delay: 150ms;
+  }
+  
+  @-webkit-keyframes blink {
+	0% {
+	  opacity: 0;
+	}
+	49% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes blink {
+	0% {
+	  opacity: 0;
+	}
+	49% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+  }
+  #laptop__code {
+	transform: rotateX(-37deg) rotateY(-46deg) rotateZ(-23deg) translateX(8px) translateY(20px) translateZ(-50px);
+  }
+
+
+
+
+  /*Pasear*/
+
+
+
+  
+  
+	#divPasear{
+		display: none;
+		overflow: hidden;
+		width: 100%;
+		height: 100vh;
+	}
+#hachi{
+    width: 1325px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 2em;
+	
+    }
+
+#pasearAtras{
+	margin-top: 20px;
+}
+
+#cielo{
+    border-radius: 16px;
+    width: 1325px;
+    height: 500px;
+    background: linear-gradient(to bottom,  #0B4C5F 0%,#04B4AE 52%,#0c0207 100%); 
+    position: absolute;
+    z-index: -30;
+    top: 0;
+    margin-top: 2em;
+    }
+
+#edificios{
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526533/eva/edificiosOne_fsg7nx.svg');
+    height: 500px; 
+    width: 1325px;
+    z-index: -10;
+    top: 6.5em;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    -webkit-animation: animar_edificios 120s linear infinite;
+    -ms-animation: animar_edificios 120s linear infinite;
+    -moz-animation: animar_edificios 120s linear infinite;
+    position: absolute;
+    }
+
+/* Animacion edificios */
+
+   @keyframes  animar_edificios {
+        from { background-position: 0 0; }
+        to { background-position: 100% 0; }
+    }
+    @-webkit-keyframes  animar_edificios {
+        from { background-position: 0 0; }
+        to { background-position: 100% 0; }
+    }
+    @-ms-keyframes  animar_edificios {
+        from { background-position: 0 0; }
+        to { background-position: 100% 0; }
+    }
+    @-moz-keyframes  animar_edificios {
+        from { background-position: 0 0; }
+        to { background-position: 100% 0; }
+    }
+   
+#luna {
+    width: 6em;
+    height: 6em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #F7F8E0;
+    -webkit-box-shadow: 30px 10px 0 #F7F8E0;
+    box-shadow: 30px 10px 0 #F7F8E0;
+    margin-top: 1em;
+    margin-left: 50%;
+    position: absolute;
+    z-index: -19;
+    }
+
+#muro{
+    height: 23em;
+    width: 100%;
+    background: -moz-linear-gradient(top,  #416663 0%, #0c0207 19%); 
+    background: -webkit-linear-gradient(top,  #416663 0%,#0c0207 19%); 
+    background: linear-gradient(to bottom,  #416663 0%,#0c0207 19%); 
+    bottom:0px; 
+    }
+
+#gato2{
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg');
+    height: 297px; 
+    width: 507.5px;
+    margin-top: 2em;
+    margin-left: 2em;
+    z-index: 10;
+    -webkit-animation: sprite-animation 1.2s steps(16,end) infinite;
+    -moz-animation: sprite-animation 1.2s steps(16,end) infinite; 
+    -ms-animation: sprite-animation 1.2s steps(16,end) infinite; 
+    animation: sprite-animation 1.2s steps(16,end) infinite;
+    }
+
+@-webkit-keyframes sprite-animation { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; } 
+    }
+
+@-ms-keyframes sprite-animation { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+
+@-moz-keyframes sprite-animation { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+
+@keyframes sprite-animation { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+
+
+
+
+ /*Dormir*/
+
+
+.containerDormir{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	min-width: 320px;
+	height: 83vh;
+}
+ #divDormir {
+	display: none;
+  }
+
+  #dormirAtras{
+	  margin-top: 10px;
+  }
+	
+	
+	/**
+	 * Bedroom layout
+	 */
+	.bedroom {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		flex-direction: row-reverse;
+		background-color: #32303e;
+		overflow: hidden;
+		animation: bedroom-color 6s step-end infinite;
+	}
+	.nightstand {
+		position: relative;
+		flex: 0 0 40%;
+		max-width: 400px;
+		min-height: 147px;
+		height: calc(100% * 147 / 476);
+	}
+	.bed {
+		position: relative;
+		flex: 0 0 60%;
+		min-height: 213px;
+		height: calc(100% * 213 / 476);
+	}
+	
+	/**
+	 * Nightstand area
+	 */
+	.lamp-light-svg {
+		position: absolute;
+		height: calc(100% * 1290 / 147);
+		transform: translate(calc(-100% * 597 / 1290), calc(-100% * 722 / 1290));
+	}
+	.lamp-glow-svg {
+		position: absolute;
+		height: calc(100% * 210 / 147);
+		transform: translate(calc(-100% * 206 / 499), calc(-100% * 328 / 210));
+	}
+	.lamp-shadow-svg {
+		position: absolute;
+		height: 100%;
+		transform: translate(calc(-100% * 500 / 900), 0);
+	}
+	.lamp-svg {
+		position: absolute;
+		height: calc(100% * 107 / 147);
+		transform: translate(calc(100% * 6 / 92), -100%);
+		z-index: 1;
+	}
+	.clock-svg {
+		position: absolute;
+		height: calc(100% * 34 / 147);
+		transform: translate(calc(100% * 78 / 75), -100%)
+	}
+	.clock-front {
+		animation: clock-front-color 6s step-end infinite;
+	}
+	.nightstand-svg {
+		position: absolute;
+		bottom: 0;
+		height: 100%;
+		transform: translate(calc(100% * 8 / 153), 0);
+	}
+	
+	/**
+	 * Bed area
+	 */
+	.bed-svg {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+	}
+	.cat {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		min-width: 112px;
+		width: calc(100vh * 112 / 476);
+		height: calc(100% * 159 / 213);
+		transform: translate(calc(-100% * 64 / 112), calc(-100% * 112 / 164));
+	}
+	.cat-svg {
+		position: absolute;
+		height: 100%;
+	}
+	.cat-eye {
+		animation: cat-eye-color 6s step-end infinite;
+	}
+	.cat-paw-svg {
+		position: absolute;
+		top: calc(100% * 72 / 159);
+		left: calc(100% * 96 / 112);
+		height: calc(100% * 47 / 159);
+		transform-origin: 0 0;
+		z-index: 1;
+		animation: 3s cat-paw 2.75s linear infinite;
+	}
+	.lamp-switch-1-svg {
+		position: absolute;
+		top: calc(100% * 57 / 159);
+		left: calc(100% * 163 / 112);
+		height: calc(100% * 49 / 159);
+		animation: 3s lamp-switch-1 2.75s linear infinite;
+	}
+	.lamp-switch-2-svg {
+		position: absolute;
+		top: calc(100% * 106 / 159);
+		left: calc(100% * 163 / 112);
+		width: calc(100% / 112);
+		height: calc(100% * 18 / 159);
+		animation: 3s lamp-switch-2 2.75s linear infinite;
+	}
+	.blanket-svg {
+		position: absolute;
+		right: 0;
+		transform: translate(calc(-100% * 2 / 417), calc(100% * 26 / 144));
+		height: calc(100% * 144 / 213);
+		z-index: 1;
+	}
+	
+	/**
+	 * Animations
+	 */
+	.lamp-light-svg,
+	.lamp-glow-svg,
+	.lamp-shadow-svg,
+	.blanket-shadow,
+	.bed-back-shadow,
+	.bed-pillow-shadow,
+	.lamp-switch-shadow,
+	.lamp-stem-glow,
+	.lamp-shade,
+	.clock-button-shadow,
+	.cat-eye-pupil {
+		animation: hide 6s step-end infinite;
+	}
+	.lamp-shade-dark {
+		animation: show 6s step-end infinite;
+	}
+	.bed-front-shadow,
+	.bed-matress-shadow,
+	.bed-back-shadow-2,
+	.blanket-shadow-2,
+	.bed-pillow-shadow-2,
+	.lamp-stem-shadow,
+	.lamp-switch-shadow-2,
+	.nightstand-shadow {
+		animation: darken 6s step-end infinite;
+	}
+	
+	@keyframes bedroom-color {
+		50% {
+			background-color: #080810;
+		}
+	}
+	@keyframes clock-front-color {
+		50% {
+			fill: #000;
+		}
+	}
+	@keyframes cat-eye-color {
+		50% {
+			fill: #fffdb2;
+		}
+	}
+	@keyframes hide {
+		50% {
+			fill-opacity: 0;
+		}
+	}
+	@keyframes show {
+		50% {
+			fill-opacity: 1;
+		}
+	}
+	@keyframes darken {
+		50% {
+			fill-opacity: .86;
+		}
+	}
+	@keyframes cat-paw {
+		0%, 10% {
+			transform: rotate(0deg);
+		}
+		5% {
+			transform: rotate(10deg);
+		}
+	}
+	@keyframes lamp-switch-1 {
+		0%, 10% {
+			transform: translate(0, 0);
+		}
+		5% {
+			transform: translate(0, calc(100% * 6 / 49));
+		}
+	}
+	@keyframes lamp-switch-2 {
+		0%, 10% {
+			transform: translate(0, 0);
+		}
+		5% {
+			transform: translate(calc(-100% * 9), calc(100% * 10 / 18));
+		}
+	}
+	
