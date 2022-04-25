@@ -7,6 +7,13 @@ var pasear = document.getElementById("pasear");
 var atrasDormir = document.getElementById("dormirAtras");
 var dormir = document.getElementById("dormir");
 
+let currentTimeDate = new Date();
+let hours = currentTimeDate.getHours();
+let minutes = currentTimeDate.getMinutes();
+var currentTime = `${hours}:${minutes}`;
+
+document.getElementById("timeId").innerHTML = currentTime;
+
 
 atrasJugar.onclick = () => {
 	document.getElementById("divPlay").style.display = "none";
